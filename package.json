@@ -1,6 +1,6 @@
 {
   "name": "@bossmodecg/module-simplestore",
-  "version": "0.0.1",
+  "version": "0.0.20",
   "description": "A quick and dirty data store for BossmodeCG.",
   "license": "MIT",
   "bugs": {
@@ -13,7 +13,7 @@
   "dependencies": {
   },
   "peerDependencies": {
-    "@bossmodecg/core": "^0.0.10"
+    "@bossmodecg/core": "^0.0.20"
   },
   "devDependencies": {
     "babel-cli": "^6.24.0",
