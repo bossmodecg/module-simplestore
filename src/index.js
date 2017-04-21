@@ -1,11 +1,11 @@
 /* eslint-disable class-methods-use-this, no-empty-function */
 
-import BossmodeCG from '@bossmodecg/core';
+import Module from '@bossmodecg/module';
 
-export default class SimpleStoreModule extends BossmodeCG.BModule {
-  constructor(config) {
+export default class SimpleStoreModule extends Module {
+  constructor(config = {}) {
     super("simplestore", config);
   }
 
-  async _doRegister() {}
+  get defaultConfig() { return {}; }
 }
